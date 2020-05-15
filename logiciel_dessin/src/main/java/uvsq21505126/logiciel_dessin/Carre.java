@@ -7,6 +7,10 @@ public class Carre extends Forme{
         super(nom, p);
         this.l = l;
     }
+    
+    public void deplacer(Point p) {
+        this.p = p;
+    }
 
     public String toString(){
         return ("Carre(centre(" + p.getX() +","+ p.getY() +"), l(" + l + "))");

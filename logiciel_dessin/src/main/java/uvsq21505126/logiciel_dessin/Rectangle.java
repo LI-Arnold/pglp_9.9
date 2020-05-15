@@ -16,6 +16,6 @@ public class Rectangle extends Forme {
     }
 
     public String toString(){
-    	return ("Carre(centre(" + p.getX() +","+ p.getY() +"), L(" + L + "), l(" + l + "))");
+    	return ("Rectangle(centre(" + p.getX() +","+ p.getY() +"), L(" + L + "), l(" + l + "))");
     }
 }
