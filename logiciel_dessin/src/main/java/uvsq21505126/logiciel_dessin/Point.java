@@ -8,10 +8,6 @@ public class Point {
         this.x = x;
         this.y = y;
     }
-    
-    public String toString() {
-        return "(" + x + "," + y + ")";
-    }
 
     public int getX(){
         return x;

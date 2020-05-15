@@ -10,6 +10,10 @@ public class Rectangle extends Forme {
         this.L = L;
         this.l = l;
     }
+    
+    public void deplacer(Point p) {
+        this.p = p;
+    }
 
     public String toString(){
     	return ("Carre(centre(" + p.getX() +","+ p.getY() +"), L(" + L + "), l(" + l + "))");
