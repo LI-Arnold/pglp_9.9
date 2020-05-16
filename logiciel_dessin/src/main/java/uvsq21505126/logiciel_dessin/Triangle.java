@@ -17,6 +17,30 @@ public class Triangle extends Forme{
         this.p = p;
     }
 	
+	public int getX1() {
+		return s1.getX();
+	}
+	
+	public int getX2() {
+		return s2.getX();
+	}
+	
+	public int getX3() {
+		return s3.getX();
+	}
+	
+	public int getY1() {
+		return s1.getY();
+	}
+	
+	public int getY2() {
+		return s2.getY();
+	}
+	
+	public int getY3() {
+		return s3.getY();
+	}
+	
 	public String toString(){
         return("Triangle(s1=" + s1+ ", s2=" + s2+ ", s3=" + s3 + ")");
     }

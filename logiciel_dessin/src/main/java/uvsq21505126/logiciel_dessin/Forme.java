@@ -17,5 +17,9 @@ public abstract class Forme {
         this.p = p;
     }
     
+    public String getName() {
+        return nom;
+      }
+    
     public abstract String toString();
 }

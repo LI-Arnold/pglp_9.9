@@ -12,6 +12,10 @@ public class Cercle extends Forme{
     public void deplacer(Point p) {
         this.p = p;
     }
+    
+    public int getRayon() {
+    	return this.rayon;
+    }
 
     public String toString(){
         return("Cercle(centre=" + p.getX() + "," + p.getY()+ ", rayon=" + rayon + ")");

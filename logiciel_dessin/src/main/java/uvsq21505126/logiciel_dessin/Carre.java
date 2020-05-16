@@ -11,6 +11,10 @@ public class Carre extends Forme{
     public void deplacer(Point p) {
         this.p = p;
     }
+    
+    public int getL() {
+        return this.l;
+      }
 
     public String toString(){
         return ("Carre(centre(" + p.getX() +","+ p.getY() +"), l(" + l + "))");

@@ -18,4 +18,12 @@ public class Rectangle extends Forme {
     public String toString(){
     	return ("Rectangle(centre(" + p.getX() +","+ p.getY() +"), L(" + L + "), l(" + l + "))");
     }
+    
+    public int getl() {
+    	return this.l;
+    }
+    
+    public int getL() {
+    	return this.L;
+    }
 }
